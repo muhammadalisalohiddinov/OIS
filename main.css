@@ -61,12 +61,12 @@ div #school-name {
 /* Schools, Harvard, UBC */
 .schools {
   text-align: center;
-  margin: 30px;
+  margin: 0px;
+  padding: 20px;
 }
 .schools-logo {
   height: auto;
-  max-width: 100%;
+  max-width: 100px;
   margin: 10px;
   display: inline-block;
-  vertical-align: middle;
 }
