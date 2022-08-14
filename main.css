@@ -35,7 +35,7 @@ div #school-name {
 }
 .card-img-top {
   height: 180px;
-  width: 120px;
+  width: 80px;
 }
 .pathway {
   position: relative;
@@ -56,10 +56,46 @@ div #school-name {
   #school-name {
     display: none;
   }
+  #nottingham-university {
+    width: 70%;
+    height: 70%;
+  }
+  .nottingham-university-text {
+    font-size: 140%;
+  }
 }
 
 /* Schools, Harvard, UBC */
-.change {
-  width: 120px;
-  margin-top: 40px;
+.schools-logo {
+  width: 10%;
+  height: 10px;
+}
+#horizontal-line {
+  width: 10%;
+  margin: 20px auto;
+  color: black;
+}
+.nottingham-university-horizontal-line {
+  width: 40%;
+  margin: 20px auto;
+  color: white;
+}
+.schools-button {
+  margin: 0px auto;
+}
+.nottingham-university {
+  background-color: rgb(2 3 129);
+}
+.img-fluid {
+  margin: 100px auto 20px;
+  width: 25%;
+  height: 40%;
+}
+#figure {
+  background-color: red;
+  transform: rotate3d(0, 1, 0, 180deg);
+  color: aliceblue;
+}
+#ut-features {
+  background-image: url("photos/BsuBaK_CYAADXsk.jpg");
 }
